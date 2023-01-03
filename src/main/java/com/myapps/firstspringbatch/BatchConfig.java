@@ -41,7 +41,7 @@ public class BatchConfig {
                 .tasklet(new Tasklet() {
                     @Override
                     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
-                        System.out.println("Hello world!");
+                        System.out.println("\n\n\nHello world!\n\n\n");
 
                         return RepeatStatus.FINISHED;
                     }
