@@ -3,9 +3,11 @@
 - Using in memory H2 Database.
 
 ## Running
-- Operational system Linux Ubuntu or related distros.
-- Recommended JRE version 17.
-    - Instructions: [OpenJDK: Download and install](https://openjdk.org/install/)
+- Required
+    - Operational system Linux Ubuntu or related distros.
+    - Java (JRE/JDK)
+        - Recommended JRE version 17.
+        - Instructions: [OpenJDK: Download and install](https://openjdk.org/install/)
 - Run the file `deploy.sh` with: `sh deploy.sh`.
 
 Log image with working example:
