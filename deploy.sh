@@ -1,12 +1,15 @@
+#!/bin/sh
 echo
 echo "Removing previous build files (if any)..."
-sh clear.sh
+sh script/clear.sh
+
 echo
 echo "Compiling..."
-sh build.sh
+sh script/build.sh
+
 echo
 echo "Starting..."
-sh start.sh
+sh script/start.sh
 
 echo
 echo "Finished successfully."

@@ -26,22 +26,22 @@ public class BatchConfig {
     }
 
     @Bean
-    public Job imprimeOlaJob() {
+    public Job printHelloJob() {
 
         return jobBuilderFactory
-                .get("imprimeOlaJob")
-                .start(imprimeOlaStep())
+                .get("printHelloJob")
+                .start(printHelloStep())
                 .build();
 
     }
 
-    public Step imprimeOlaStep() {
+    public Step printHelloStep() {
         return stepBuilderFactory
-                .get("imprimeOlaStep")
+                .get("printHelloStep")
                 .tasklet(new Tasklet() {
                     @Override
                     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
-                        System.out.println("Olá mundo!");
+                        System.out.println("Hello world!");
 
                         return RepeatStatus.FINISHED;
                     }
