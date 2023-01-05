@@ -1,13 +1,13 @@
-package com.myapps.firstspringbatch;
+package com.myapps.springbatchfirst;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FirstSpringBatchApplication {
+public class SpringBatchFirstApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FirstSpringBatchApplication.class, args);
+		SpringApplication.run(SpringBatchFirstApplication.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-# first-spring-batch
+# spring-batch-first
 - First developed project, with a basic job, step and tasklet working structure.
 - Using in memory H2 Database.
 
@@ -12,4 +12,4 @@
 - Run the file *deploy.sh* with: `sh deploy.sh`.
 
 Log image with working example:
-- [first-spring-batch working example](https://imgur.com/a/J7DsfVl)
+- [spring-batch-first working example](https://imgur.com/a/J7DsfVl)

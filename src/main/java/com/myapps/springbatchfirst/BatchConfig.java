@@ -1,4 +1,4 @@
-package com.myapps.firstspringbatch;
+package com.myapps.springbatchfirst;
 
 
 import org.springframework.batch.core.Job;
